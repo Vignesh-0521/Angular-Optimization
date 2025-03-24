@@ -1,0 +1,59 @@
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .container:hover {
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  p {
+    font-size: 18px;
+   
+    font-weight: 1000;
+    margin: 10px 0;
+  }
+  
+  .user-id {
+    font-size: 16px;
+    background: #f7f7f7;
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  

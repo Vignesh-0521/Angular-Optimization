@@ -1,0 +1,7 @@
+<h2>User List</h2>
+<ul>
+  <li *ngFor="let user of users; trackBy: trackById">       
+    <span>{{ user.name }}</span>
+    <button (click)="viewUser(user.id)">View</button>       <!-- calls viewUser method with specific id on clicking-->
+  </li>
+</ul>

@@ -1,0 +1,13 @@
+<div class="container" *ngIf="userDetails; else notFound">
+    <h2>User Detail</h2>
+    <p class="user-id">User ID: {{ userId }}</p>  <br>     <!--prints userId after getting from its component-->
+    <p class="user-id">User Name: {{ userDetails.name }}</p> <br>
+    <p class="user-id">User Email: {{ userDetails.email }}</p><br>
+    <p class="user-id">User Address: {{ userDetails.address }}</p> <br>
+    <p class="user-id">User Role: {{ userDetails.role }}</p> <br>
+    <button class="back-button" (click)="goBack()">Go Back</button> <!--button to go back-->
+  </div>
+  <ng-template #notFound>
+    <p>User details not found for Id : {{userId}}</p>
+  </ng-template>
+  
